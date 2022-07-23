@@ -1,0 +1,31 @@
+project_name: "KoDialect"
+file_name: "ko_gy"
+
+src_name: "ko"
+trg_name: "gy"
+
+# Data path
+src_train_path: "Data/${data.file_name}/${data.src_name}.train"
+trg_train_path: "Data/${data.file_name}/${data.trg_name}.train"
+src_val_path: "Data/${data.file_name}/${data.src_name}.val"
+trg_val_path: "Data/${data.file_name}/${data.trg_name}.val"
+src_test_path: "Data/${data.file_name}/${data.src_name}.test"
+trg_test_path: "Data/${data.file_name}/${data.trg_name}.test"
+
+# Dictionay path
+dictionary_path: "Dictionary/${data.file_name}/${data.trg_name}"
+
+# Model path
+model_path: "SavedModel/${data.file_name}.ckpt"
+
+# Image path
+img_path: "Image"
+
+# Result path
+result_pathData : "Result/${data.file_name}.txt"
+
+# Token
+bos_id: 0
+eos_id: 1
+unk_id: 2
+pad_id: 3

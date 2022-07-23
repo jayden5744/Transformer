@@ -1,0 +1,4 @@
+defaults:
+  - model: transformer
+  - data: default
+  - trainer: default
